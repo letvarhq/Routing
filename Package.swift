@@ -12,12 +12,13 @@ let package = Package(
             targets: ["Routing"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "Routing"),
-        .testTarget(
-            name: "RoutingTests",
-            dependencies: ["Routing"]),
+        .binaryTarget(name: "Routing",
+                              url: "https://github.com/AldoJuniorSimoncini/ArtifactsContainer/raw/master/Routing.xcframework.zip",
+                              checksum: "5d94e7c45b359e6afe6bf54a5462b4dec9ac6dd18165238a3e316da4419f79e1"),
     ]
 )
+
+
+
+//5d94e7c45b359e6afe6bf54a5462b4dec9ac6dd18165238a3e316da4419f79e1
+//https://github.com/AldoJuniorSimoncini/ArtifactsContainer/raw/master/Routing.xcframework.zip

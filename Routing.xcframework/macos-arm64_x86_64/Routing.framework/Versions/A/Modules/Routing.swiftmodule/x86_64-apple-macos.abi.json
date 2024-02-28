@@ -1,0 +1,1190 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Routing",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SheetModifier",
+        "printedName": "SheetModifier",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "body",
+            "printedName": "body(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_ViewModifier_Content",
+                "printedName": "SwiftUI._ViewModifier_Content<Routing.SheetModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SheetModifier",
+                    "printedName": "Routing.SheetModifier",
+                    "usr": "s:7Routing13SheetModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Routing13SheetModifierV4body7contentQr7SwiftUI05_ViewC8_ContentVyACG_tF",
+            "mangledName": "$s7Routing13SheetModifierV4body7contentQr7SwiftUI05_ViewC8_ContentVyACG_tF",
+            "moduleName": "Routing",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7Routing13SheetModifierV",
+        "mangledName": "$s7Routing13SheetModifierV",
+        "moduleName": "Routing",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ViewModifier",
+            "printedName": "ViewModifier",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI12ViewModifierP",
+            "mangledName": "$s7SwiftUI12ViewModifierP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Routing",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NavigationModifier",
+        "printedName": "NavigationModifier",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "body",
+            "printedName": "body(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI._ViewModifier_Content<Routing.NavigationModifier>, SwiftUI._BackgroundModifier<SwiftUI.NavigationLink<SwiftUI.EmptyView, SwiftUI.AnyView?>>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ViewModifier_Content",
+                    "printedName": "SwiftUI._ViewModifier_Content<Routing.NavigationModifier>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NavigationModifier",
+                        "printedName": "Routing.NavigationModifier",
+                        "usr": "s:7Routing18NavigationModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_BackgroundModifier",
+                    "printedName": "SwiftUI._BackgroundModifier<SwiftUI.NavigationLink<SwiftUI.EmptyView, SwiftUI.AnyView?>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NavigationLink",
+                        "printedName": "SwiftUI.NavigationLink<SwiftUI.EmptyView, SwiftUI.AnyView?>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmptyView",
+                            "printedName": "SwiftUI.EmptyView",
+                            "usr": "s:7SwiftUI9EmptyViewV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "SwiftUI.AnyView?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyView",
+                                "printedName": "SwiftUI.AnyView",
+                                "usr": "s:7SwiftUI7AnyViewV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI14NavigationLinkV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI19_BackgroundModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_ViewModifier_Content",
+                "printedName": "SwiftUI._ViewModifier_Content<Routing.NavigationModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavigationModifier",
+                    "printedName": "Routing.NavigationModifier",
+                    "usr": "s:7Routing18NavigationModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Routing18NavigationModifierV4body7contentQr7SwiftUI05_ViewC8_ContentVyACG_tF",
+            "mangledName": "$s7Routing18NavigationModifierV4body7contentQr7SwiftUI05_ViewC8_ContentVyACG_tF",
+            "moduleName": "Routing",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7Routing18NavigationModifierV",
+        "mangledName": "$s7Routing18NavigationModifierV",
+        "moduleName": "Routing",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ViewModifier",
+            "printedName": "ViewModifier",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI._ViewModifier_Content<Routing.NavigationModifier>, SwiftUI._BackgroundModifier<SwiftUI.NavigationLink<SwiftUI.EmptyView, SwiftUI.AnyView?>>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ViewModifier_Content",
+                        "printedName": "SwiftUI._ViewModifier_Content<Routing.NavigationModifier>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NavigationModifier",
+                            "printedName": "Routing.NavigationModifier",
+                            "usr": "s:7Routing18NavigationModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_BackgroundModifier",
+                        "printedName": "SwiftUI._BackgroundModifier<SwiftUI.NavigationLink<SwiftUI.EmptyView, SwiftUI.AnyView?>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NavigationLink",
+                            "printedName": "SwiftUI.NavigationLink<SwiftUI.EmptyView, SwiftUI.AnyView?>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EmptyView",
+                                "printedName": "SwiftUI.EmptyView",
+                                "usr": "s:7SwiftUI9EmptyViewV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "SwiftUI.AnyView?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "AnyView",
+                                    "printedName": "SwiftUI.AnyView",
+                                    "usr": "s:7SwiftUI7AnyViewV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI14NavigationLinkV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI19_BackgroundModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI12ViewModifierP",
+            "mangledName": "$s7SwiftUI12ViewModifierP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Routing",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Routing"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Routing"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Router",
+        "printedName": "Router",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "State",
+            "printedName": "State",
+            "declKind": "Struct",
+            "usr": "s:7Routing6RouterC5StateV",
+            "mangledName": "$s7Routing6RouterC5StateV",
+            "moduleName": "Routing",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isPresented:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Router",
+                "printedName": "Routing.Router",
+                "usr": "s:7Routing6RouterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Routing6RouterC11isPresentedAC7SwiftUI7BindingVySbG_tcfc",
+            "mangledName": "$s7Routing6RouterC11isPresentedAC7SwiftUI7BindingVySbG_tcfc",
+            "moduleName": "Routing",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "navigateTo",
+            "printedName": "navigateTo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Routing6RouterC10navigateToyyx7SwiftUI4ViewRzlF",
+            "mangledName": "$s7Routing6RouterC10navigateToyyx7SwiftUI4ViewRzlF",
+            "moduleName": "Routing",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<V where V : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentSheet",
+            "printedName": "presentSheet(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Routing6RouterC12presentSheetyyx7SwiftUI4ViewRzlF",
+            "mangledName": "$s7Routing6RouterC12presentSheetyyx7SwiftUI4ViewRzlF",
+            "moduleName": "Routing",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<V where V : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentFullScreen",
+            "printedName": "presentFullScreen(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Routing6RouterC17presentFullScreenyyx7SwiftUI4ViewRzlF",
+            "mangledName": "$s7Routing6RouterC17presentFullScreenyyx7SwiftUI4ViewRzlF",
+            "moduleName": "Routing",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<V where V : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismiss",
+            "printedName": "dismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Routing6RouterC7dismissyyF",
+            "mangledName": "$s7Routing6RouterC7dismissyyF",
+            "moduleName": "Routing",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isNavigating",
+            "printedName": "isNavigating",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Routing6RouterC12isNavigating7SwiftUI7BindingVySbGvp",
+            "mangledName": "$s7Routing6RouterC12isNavigating7SwiftUI7BindingVySbGvp",
+            "moduleName": "Routing",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Routing6RouterC12isNavigating7SwiftUI7BindingVySbGvg",
+                "mangledName": "$s7Routing6RouterC12isNavigating7SwiftUI7BindingVySbGvg",
+                "moduleName": "Routing",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPresentingSheet",
+            "printedName": "isPresentingSheet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Routing6RouterC17isPresentingSheet7SwiftUI7BindingVySbGvp",
+            "mangledName": "$s7Routing6RouterC17isPresentingSheet7SwiftUI7BindingVySbGvp",
+            "moduleName": "Routing",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Routing6RouterC17isPresentingSheet7SwiftUI7BindingVySbGvg",
+                "mangledName": "$s7Routing6RouterC17isPresentingSheet7SwiftUI7BindingVySbGvg",
+                "moduleName": "Routing",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPresentingFullScreen",
+            "printedName": "isPresentingFullScreen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Routing6RouterC22isPresentingFullScreen7SwiftUI7BindingVySbGvp",
+            "mangledName": "$s7Routing6RouterC22isPresentingFullScreen7SwiftUI7BindingVySbGvp",
+            "moduleName": "Routing",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Routing6RouterC22isPresentingFullScreen7SwiftUI7BindingVySbGvg",
+                "mangledName": "$s7Routing6RouterC22isPresentingFullScreen7SwiftUI7BindingVySbGvg",
+                "moduleName": "Routing",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPresented",
+            "printedName": "isPresented",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Routing6RouterC11isPresented7SwiftUI7BindingVySbGSgvp",
+            "mangledName": "$s7Routing6RouterC11isPresented7SwiftUI7BindingVySbGSgvp",
+            "moduleName": "Routing",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<Swift.Bool>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Routing6RouterC11isPresented7SwiftUI7BindingVySbGSgvg",
+                "mangledName": "$s7Routing6RouterC11isPresented7SwiftUI7BindingVySbGSgvg",
+                "moduleName": "Routing",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "binding",
+            "printedName": "binding(keyPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WritableKeyPath",
+                "printedName": "Swift.WritableKeyPath<Routing.Router.State, τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "Routing.Router.State",
+                    "usr": "s:7Routing6RouterC5StateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:s15WritableKeyPathC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Routing6RouterC7binding7keyPath7SwiftUI7BindingVyxGs011WritableKeyE0CyAC5StateVxG_tlF",
+            "mangledName": "$s7Routing6RouterC7binding7keyPath7SwiftUI7BindingVyxGs011WritableKeyE0CyAC5StateVxG_tlF",
+            "moduleName": "Routing",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "boolBinding",
+            "printedName": "boolBinding(keyPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WritableKeyPath",
+                "printedName": "Swift.WritableKeyPath<Routing.Router.State, τ_0_0?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "Routing.Router.State",
+                    "usr": "s:7Routing6RouterC5StateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:s15WritableKeyPathC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Routing6RouterC11boolBinding7keyPath7SwiftUI0D0VySbGs011WritableKeyF0CyAC5StateVxSgG_tlF",
+            "mangledName": "$s7Routing6RouterC11boolBinding7keyPath7SwiftUI0D0VySbGs011WritableKeyF0CyAC5StateVxSgG_tlF",
+            "moduleName": "Routing",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Routing6RouterC",
+        "mangledName": "$s7Routing6RouterC",
+        "moduleName": "Routing",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Routing",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Routing"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PresentedRouter",
+        "printedName": "PresentedRouter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isPresented",
+            "printedName": "isPresented",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Routing15PresentedRouterP02isB07SwiftUI7BindingVySbGvp",
+            "mangledName": "$s7Routing15PresentedRouterP02isB07SwiftUI7BindingVySbGvp",
+            "moduleName": "Routing",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Routing15PresentedRouterP02isB07SwiftUI7BindingVySbGvg",
+                "mangledName": "$s7Routing15PresentedRouterP02isB07SwiftUI7BindingVySbGvg",
+                "moduleName": "Routing",
+                "genericSig": "<τ_0_0 where τ_0_0 : Routing.PresentedRouter>",
+                "sugared_genericSig": "<Self where Self : Routing.PresentedRouter>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "dismiss",
+            "printedName": "dismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Routing15PresentedRouterPAAE7dismissyyF",
+            "mangledName": "$s7Routing15PresentedRouterPAAE7dismissyyF",
+            "moduleName": "Routing",
+            "genericSig": "<τ_0_0 where τ_0_0 : Routing.PresentedRouter>",
+            "sugared_genericSig": "<Self where Self : Routing.PresentedRouter>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Routing15PresentedRouterP",
+        "mangledName": "$s7Routing15PresentedRouterP",
+        "moduleName": "Routing",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BasePresentedRouter",
+        "printedName": "BasePresentedRouter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isPresented",
+            "printedName": "isPresented",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Routing19BasePresentedRouterC02isC07SwiftUI7BindingVySbGvp",
+            "mangledName": "$s7Routing19BasePresentedRouterC02isC07SwiftUI7BindingVySbGvp",
+            "moduleName": "Routing",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Routing19BasePresentedRouterC02isC07SwiftUI7BindingVySbGvg",
+                "mangledName": "$s7Routing19BasePresentedRouterC02isC07SwiftUI7BindingVySbGvg",
+                "moduleName": "Routing",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isPresented:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BasePresentedRouter",
+                "printedName": "Routing.BasePresentedRouter",
+                "usr": "s:7Routing19BasePresentedRouterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Routing19BasePresentedRouterC02isC0AC7SwiftUI7BindingVySbG_tcfc",
+            "mangledName": "$s7Routing19BasePresentedRouterC02isC0AC7SwiftUI7BindingVySbG_tcfc",
+            "moduleName": "Routing",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Routing19BasePresentedRouterC",
+        "mangledName": "$s7Routing19BasePresentedRouterC",
+        "moduleName": "Routing",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PresentedRouter",
+            "printedName": "PresentedRouter",
+            "usr": "s:7Routing15PresentedRouterP",
+            "mangledName": "$s7Routing15PresentedRouterP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sheet",
+            "printedName": "sheet(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<τ_0_0, Routing.SheetModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SheetModifier",
+                    "printedName": "Routing.SheetModifier",
+                    "usr": "s:7Routing13SheetModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Router",
+                "printedName": "Routing.Router",
+                "usr": "s:7Routing6RouterC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP7RoutingE5sheetyQrAD6RouterCF",
+            "mangledName": "$s7SwiftUI4ViewP7RoutingE5sheetyQrAD6RouterCF",
+            "moduleName": "Routing",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "navigation",
+            "printedName": "navigation(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<τ_0_0, Routing.NavigationModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavigationModifier",
+                    "printedName": "Routing.NavigationModifier",
+                    "usr": "s:7Routing18NavigationModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Router",
+                "printedName": "Routing.Router",
+                "usr": "s:7Routing6RouterC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP7RoutingE10navigationyQrAD6RouterCF",
+            "mangledName": "$s7SwiftUI4ViewP7RoutingE10navigationyQrAD6RouterCF",
+            "moduleName": "Routing",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/aldojuniorsimoncini\/Desktop\/frame_routing\/Routing\/PresentingRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 995,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aldojuniorsimoncini\/Desktop\/frame_routing\/Routing\/PresentedRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 303,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

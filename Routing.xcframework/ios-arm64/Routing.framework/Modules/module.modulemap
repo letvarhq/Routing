@@ -1,0 +1,11 @@
+framework module Routing {
+  umbrella header "Routing.h"
+  export *
+
+  module * { export * }
+}
+
+module Routing.Swift {
+  header "Routing-Swift.h"
+  requires objc
+}

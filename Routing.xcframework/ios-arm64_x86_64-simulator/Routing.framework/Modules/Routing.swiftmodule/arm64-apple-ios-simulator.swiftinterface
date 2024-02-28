@@ -1,0 +1,99 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Routing
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import Foundation
+@_exported import Routing
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension SwiftUI.View {
+  public func sheet(_ router: Routing.Router) -> some SwiftUI.View
+  
+}
+public struct SheetModifier : SwiftUI.ViewModifier {
+  @_Concurrency.MainActor(unsafe) public func body(content: Routing.SheetModifier.Content) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s7Routing13SheetModifierV4body7contentQr7SwiftUI05_ViewC8_ContentVyACG_tF", 0) __
+}
+extension SwiftUI.View {
+  public func navigation(_ router: Routing.Router) -> some SwiftUI.View
+  
+}
+public struct NavigationModifier : SwiftUI.ViewModifier {
+  @_Concurrency.MainActor(unsafe) public func body(content: Routing.NavigationModifier.Content) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s7Routing18NavigationModifierV4body7contentQr7SwiftUI05_ViewC8_ContentVyACG_tF", 0) __
+}
+open class Router : Combine.ObservableObject {
+  public struct State {
+  }
+  public init(isPresented: SwiftUI.Binding<Swift.Bool>)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+extension Routing.Router {
+  public func navigateTo<V>(_ view: V) where V : SwiftUI.View
+  public func presentSheet<V>(_ view: V) where V : SwiftUI.View
+  public func presentFullScreen<V>(_ view: V) where V : SwiftUI.View
+  public func dismiss()
+}
+extension Routing.Router {
+  public var isNavigating: SwiftUI.Binding<Swift.Bool> {
+    get
+  }
+  public var isPresentingSheet: SwiftUI.Binding<Swift.Bool> {
+    get
+  }
+  public var isPresentingFullScreen: SwiftUI.Binding<Swift.Bool> {
+    get
+  }
+  public var isPresented: SwiftUI.Binding<Swift.Bool>? {
+    get
+  }
+}
+extension Routing.Router {
+  public func binding<T>(keyPath: Swift.WritableKeyPath<Routing.Router.State, T>) -> SwiftUI.Binding<T>
+  public func boolBinding<T>(keyPath: Swift.WritableKeyPath<Routing.Router.State, T?>) -> SwiftUI.Binding<Swift.Bool>
+}
+extension SwiftUI.View {
+  public func fullscreen(_ router: Routing.Router) -> some SwiftUI.View
+  
+}
+public struct FullscreenModifier : SwiftUI.ViewModifier {
+  @_Concurrency.MainActor(unsafe) public func body(content: Routing.FullscreenModifier.Content) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s7Routing18FullscreenModifierV4body7contentQr7SwiftUI05_ViewC8_ContentVyACG_tF", 0) __
+}
+public protocol StepsNavigation : Routing.Router {
+  func nextStep()
+}
+public protocol StepsParameterNavigation : Routing.Router {
+  associatedtype Parameter
+  func nextStep(parameter: Self.Parameter)
+}
+public protocol StepsAlternativeNavigation : Routing.Router {
+  func alternativeStep()
+}
+public class StepsRouter : Routing.Router, Routing.StepsNavigation, Routing.StepsAlternativeNavigation {
+  public var makeStepView: (() -> SwiftUI.AnyView)?
+  public var makeAlternativeStepView: (() -> SwiftUI.AnyView)?
+  public init(makeStepView: (() -> SwiftUI.AnyView)? = nil)
+  public func nextStep()
+  public func alternativeStep()
+  @objc deinit
+}
+public protocol PresentedRouter {
+  var isPresented: SwiftUI.Binding<Swift.Bool> { get }
+}
+extension Routing.PresentedRouter {
+  public func dismiss()
+}
+public class BasePresentedRouter : Routing.PresentedRouter {
+  final public let isPresented: SwiftUI.Binding<Swift.Bool>
+  public init(isPresented: SwiftUI.Binding<Swift.Bool>)
+  @objc deinit
+}

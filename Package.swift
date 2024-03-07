@@ -12,8 +12,9 @@ let package = Package(
             targets: ["Routing"]),
     ],
     targets: [
-        .binaryTarget(name: "Routing",
-                              url: "https://github.com/AldoJuniorSimoncini/ArtifactsContainer/raw/master/Routing.xcframework.zip",
-                              checksum: "f8477b164c489fa27d8fc00dd1f34f50eb2270b8a8fac7dcc1ae0392feefa83d"),
+        .binaryTarget(name: "Routing", path: "Routing.xcframework")
+//        .binaryTarget(name: "Routing",
+//                              url: "https://github.com/AldoJuniorSimoncini/ArtifactsContainer/raw/master/Routing/Routing.xcframework_v1_5_1.zip",
+//                              checksum: "6f1faa709d6ea16af0dc0dc1299b1f275c1b76b62e6ab20fc2eadfd03d3f0bc3"),
     ]
 )

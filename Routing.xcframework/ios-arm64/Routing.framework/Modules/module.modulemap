@@ -1,6 +1,0 @@
-framework module Routing {
-  umbrella header "Routing.h"
-  export *
-
-  module * { export * }
-}
